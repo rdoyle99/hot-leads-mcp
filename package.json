@@ -1,0 +1,29 @@
+{
+  "name": "hot-leads-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for Hot Leads: daily B2B companies that raised money (SEC Form D), hired a new executive, launched, or exhibit at upcoming US trade shows, with verified decision-maker emails.",
+  "license": "MIT",
+  "author": "Ryan Doyle",
+  "homepage": "https://hotleadsmcp.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rdoyle99/hot-leads-mcp.git"
+  },
+  "bin": {
+    "hot-leads-mcp": "./index.js"
+  },
+  "main": "index.js",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "b2b-leads",
+    "sec-edgar",
+    "form-d",
+    "trade-shows",
+    "sales",
+    "outbound"
+  ]
+}

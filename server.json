@@ -1,0 +1,26 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.rdoyle99/hot-leads-mcp",
+  "title": "Hot Leads MCP",
+  "description": "Daily B2B leads that raised money (SEC Form D), hired a new exec, launched, or exhibit at upcoming US trade shows, with verified emails.",
+  "version": "1.0.0",
+  "websiteUrl": "https://hotleadsmcp.com",
+  "repository": {
+    "url": "https://github.com/rdoyle99/hot-leads-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://hotleadsmcp.com/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Bearer <YOUR_HOTLEADS_KEY> from https://hotleadsmcp.com",
+          "isRequired": true,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}

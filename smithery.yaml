@@ -1,0 +1,15 @@
+startCommand:
+  type: stdio
+  configSchema:
+    type: object
+    properties:
+      apiKey:
+        type: string
+        title: Hot Leads API Key
+        description: API key from https://hotleadsmcp.com
+  commandFunction: |-
+    (config) => ({
+      command: 'node',
+      args: ['index.js'],
+      env: config.apiKey ? { HOTLEADS_API_KEY: config.apiKey } : {}
+    })
