@@ -1,5 +1,7 @@
 # Hot Leads MCP
 
+[![rdoyle99/hot-leads-mcp MCP server](https://glama.ai/mcp/servers/rdoyle99/hot-leads-mcp/badges/score.svg)](https://glama.ai/mcp/servers/rdoyle99/hot-leads-mcp)
+
 Daily B2B companies with a verifiable public reason to buy this week — connected directly to Claude, ChatGPT, Claude Code, Cursor, Windsurf, or any Model Context Protocol (MCP) client via **hosted Streamable HTTP** or **local `stdio` (`npx` / Docker)**.
 
 - **Website & Live Dashboard**: [https://hotleadsmcp.com](https://hotleadsmcp.com)
